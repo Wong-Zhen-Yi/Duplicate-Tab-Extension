@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Duplicate Tab",
+  "version": "1.0.0",
+  "description": "Duplicate the current tab with Alt+Shift+D.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Duplicate current tab (Alt+Shift+D)"
+  },
+  "commands": {
+    "duplicate-tab": {
+      "suggested_key": {
+        "default": "Alt+Shift+D"
+      },
+      "description": "Duplicate the current tab"
+    }
+  }
+}
